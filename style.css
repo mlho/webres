@@ -1,0 +1,103 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Staatliches', sans-serif;
+    display: flex;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+form {
+    flex: 1;
+    width: 360px;
+}
+
+#select-wrapper {
+    margin: 0 auto;
+    width: 200px;
+    overflow: hidden;
+}
+
+#select-mode {
+    width: 240px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Staatliches', sans-serif;
+    background-color: black;
+    color: white;
+    border: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' viewBox='0 0 40 40'%3E%3Crect style='color-rendering:auto;color:%23000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:%23000000;image-rendering:auto' height='40' width='40' y='0' x='0' fill='%23000000'/%3E%3Cpath stroke-linejoin='round' d='m12.96 16.48 7.0457 7.0457 7.0457-7.0457' stroke='%23ffffff' stroke-linecap='round' stroke-width='5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#color-ctn {
+    display: none;
+}
+
+#single-color {
+    display: none;
+}
+
+#stripe-color {
+    display: none;
+    font-size: 26px;
+}
+
+#brightness-output {
+    font-size: 30px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 14px;
+    border-radius: 7px;
+    background: white;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    border: none;
+}
+
+#submit-btn {
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Staatliches', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 50px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: black;
+    color: white;
+}
