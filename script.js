@@ -3,7 +3,7 @@ function colorControls(mode){
     var singleColor = document.getElementById('single-color');
     var stripeColor = document.getElementById('stripe-color');
 
-    if('breath' == mode || 'fade' == mode || 'solid' == mode || 'stripe' == mode || 'strobe' == mode){
+    if('breath' == mode || 'solid' == mode || 'stripe' == mode || 'strobe' == mode){
             colorCtn.style.display = 'block';
 
             if('stripe' == mode){
